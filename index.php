@@ -7,6 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form action="./badwords.php" method="GET">
+                    <div class="row">
+                        <div class="col-4">
+                            <input type="text" class="form-control" name="nome" placeholder="Nome"> 
+                        </div>
+                        <div class="col-4">
+                            <input type="text" class="form-control" name="cognome" placeholder="Cognome">
+                        </div>
+                        <div class="col-10 mt-3">
+                            <button type="submit" class="btn btn-primary">Invia</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
